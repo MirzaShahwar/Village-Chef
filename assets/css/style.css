@@ -1,14 +1,11 @@
 :root{
     --bs-primary: #F7B41A;
-    --bs-primary-hover: #e2a30e;
+    --bs-primary-hover: #eca603;
     --bs-background-color: #181818;
     --bs-white:#FFFFFF;
     --bs-blakish: #494949;
-    --bs-light-black: #111111;
     --bs-black: #000000;
-    --bs-grey: #5D5D5D;
-    --bs-dark-grey: #737373;
-    --bs-light-grey: #B9B9B9;
+
 }
 body {
     margin: 0px;
@@ -22,7 +19,7 @@ body {
 }
 
 .logo-img img{
-    height: 3.5rem;
+    height: 4rem;
 }
 
 .search-icon{
@@ -59,8 +56,8 @@ body {
     font-family: "Poppins";
     font-size: 0.9rem;
     font-weight: 400;
-    margin: 20px 10px 0px 10px !important;
-    padding: 0px !important;
+    /* margin: 20px 10px 0px 10px !important; */
+    /* padding: 0px !important; */
 
     
 }
@@ -73,6 +70,7 @@ body {
 .header-text{
     font-family: "Contrail One";
     font-size: 4.5rem;
+        /* font-size: clamp(2.5rem, 5vw, 5rem); */
     font-weight: 400;
     color: var(--bs-white);
     line-height: 1.3;
