@@ -1,0 +1,138 @@
+:root{
+    --bs-primary: #F7B41A;
+    --bs-primary-hover: #e2a30e;
+    --bs-background-color: #181818;
+    --bs-white:#FFFFFF;
+    --bs-blakish: #494949;
+    --bs-light-black: #111111;
+    --bs-black: #000000;
+    --bs-grey: #5D5D5D;
+    --bs-dark-grey: #737373;
+    --bs-light-grey: #B9B9B9;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-color{
+    background-color: var(--bs-background-color);
+    height: 100vh;
+    
+}
+
+.logo-img img{
+    height: 3.5rem;
+}
+
+.search-icon{
+    height: 1.5rem;
+}
+.cart-icon{
+    height: 1.5rem;
+}
+.login-btn{
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+    border-color: var(--bs-primary);
+    padding-left: 2.5rem !important;
+    padding-right: 1.5rem !important;
+    
+}
+.login-btn-icon{
+    height: 1rem;
+    left: 16px;
+}
+.menu-items ul{
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0px 10px 0px 10px !important;
+    padding: 0px !important;
+
+    
+}
+.menu-items ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-text{
+    font-family: "Contrail One";
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--bs-white);
+    line-height: 1.3;
+}
+.header-text span{
+    
+    color: var(--bs-primary);
+    
+}
+.sub-header-text{
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--bs-white);
+}
+.btn-primary{
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-white) !important;
+    border-color: var(--bs-primary) !important;
+    font-family: "Poppins" !important;
+}
+.btn-primary:hover{
+    background-color: var(--bs-primary-hover) !important;
+    border-color: var(--bs-primary-hover) !important;
+}
+
+.eclips-icon-div{
+    height: auto;
+    width: 45%;
+}
+.eclips-icon img{
+
+    height: 3.7rem;
+
+}
+.eclips-icon img:nth-child(2){
+
+    left: 2.7rem;
+    
+}
+.eclips-icon img:nth-child(3){
+
+    left: 5.4rem;
+    
+}
+.happy-customer{
+    color: var(--bs-white);
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.happy-customer-div img{
+    height: 0.9rem;
+}
+.happy-customer-rating{
+    color: var(--bs-white);
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.happy-customer-review{
+    color: var(--bs-blakish);
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding-top: 2px;
+}
